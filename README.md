@@ -9,6 +9,8 @@
     apk add git
     cd /app
     git clone https://github.com/kipavy/glance-template
-    cp -r glance-template/* .
+    cp -r glance-template/config .
     rm -rf glance-template
     ```
+    
+    ![](dashboard.png)
