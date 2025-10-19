@@ -1,0 +1,14 @@
+- name: Homelab
+  columns:
+    - size: small
+      widgets:
+        $include: ../widgets/proxmox.yml
+        
+    - size: full
+      widgets:
+        $include: ../widgets/monitors.yml
+
+    - size: small
+      widgets:
+        $include: ../widgets/bookmarks.yml
+        $include: ../widgets/tailscale.yml

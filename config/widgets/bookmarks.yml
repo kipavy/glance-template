@@ -1,0 +1,11 @@
+- type: bookmarks
+  groups:
+    - links:
+        - title: Proxmox Scripts
+          url: https://community-scripts.github.io/ProxmoxVE/
+        - title: Tailscale 
+          url: https://login.tailscale.com/admin/machines
+        - title: SFR Box NAT
+          url: http://192.168.1.1/network/nat
+        - title: Hostinger
+          url: https://www.hostinger.com/
