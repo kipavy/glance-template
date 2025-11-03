@@ -1,8 +1,8 @@
-1. Install Glance template on Dokploy
+1. Install Glance template on Dokploy or using https://community-scripts.github.io/ProxmoxVE/scripts?id=glance
 2. provide following env variables in dokploy:
     - PROXMOX="user@pam!name=key"
     - TAILSCALE=API_KEY
-    - SCRUTINY_URL=192.168.1.x:XXXX
+    - SCRUTINY_URL=192.168.1.149:8087
 
 3. open terminal in dokploy
 4. 
