@@ -2,6 +2,7 @@
 2. provide following env variables in dokploy:
     - PROXMOX="user@pam!name=key"
     - TAILSCALE=API_KEY
+    - SCRUTINY_URL=192.168.1.x:XXXX
 
 3. open terminal in dokploy
 4. 
