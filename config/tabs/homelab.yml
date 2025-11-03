@@ -3,6 +3,7 @@
     - size: small
       widgets:
         $include: ../widgets/proxmox.yml
+        $include: ../widgets/scrutiny.yml
         
     - size: full
       widgets:
