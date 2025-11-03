@@ -24,6 +24,14 @@
       url: https://dokploy.legoatdesserveurs.fr/
       check-url: http://192.168.1.149:3000/
       icon: sh:dokploy
+    - title: Glance
+      url: https://legoatdesserveurs.fr/
+      check-url: http://192.168.1.149:9998/
+      icon: sh:glance
+    - title: Scrutiny
+      url: https://scrutiny.legoatdesserveurs.fr/
+      check-url: http://192.168.1.149:8087/
+      icon: https://github.com/AnalogJ/scrutiny/raw/master/webapp/frontend/src/assets/images/logo/scrutiny-logo-dark.png
 
 - type: docker-containers
   hide-by-default: true
@@ -31,4 +39,8 @@
     enshrouded-enshrouded-cimqmp-enshrouded-1:
       name: Enshrouded Dedicated Server
       icon: https://enshrouded.wiki.gg/images/Site-logo.png
+      hide: false
+    any-sync-dockercompose-any-sync-filenode-1:
+      name: Anytype
+      icon: si:anytype
       hide: false
