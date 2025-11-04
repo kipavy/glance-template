@@ -14,10 +14,7 @@
               subreddit: homelab
               show-thumbnails: true
             - type: reddit
-              subreddit: homeassistant
-              show-thumbnails: true
-            - type: reddit
-              subreddit: 3DPrinting
+              subreddit: stremiofr
               show-thumbnails: true
     - size: small
       widgets:
