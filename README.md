@@ -22,5 +22,6 @@
     cp -r glance-template/config/* .
     rm -rf glance-template
     ```
+5. You can then replace my services with yours, for icons refer to https://github.com/glanceapp/glance/blob/main/docs/configuration.md#icons
     
     ![](dashboard.png)
