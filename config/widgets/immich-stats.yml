@@ -1,7 +1,7 @@
 - type: custom-api
   title: Immich stats
   cache: 1d
-  url: https://${IMMICH_URL}/api/server/statistics
+  url: http://${IMMICH_URL}/api/server/statistics
   headers:
     x-api-key: ${IMMICH_API_KEY}
     Accept: application/json
