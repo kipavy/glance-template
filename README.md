@@ -1,11 +1,11 @@
 1. Install Glance template on Dokploy or using https://community-scripts.github.io/ProxmoxVE/scripts?id=glance
 2. provide following env variables in dokploy or in `/opt/glance/.env` for Proxmox VE Script deployment:
-```
-PROXMOX_URL=192.168.1.75:8006
-PROXMOX_TOKEN="user@pam!name=key"
-TAILSCALE_API_KEY=API_KEY
-SCRUTINY_URL=192.168.1.149:8087
-```
+    ```
+    PROXMOX_URL=192.168.1.75:8006
+    PROXMOX_TOKEN="user@pam!name=key"
+    TAILSCALE_API_KEY=API_KEY
+    SCRUTINY_URL=192.168.1.149:8087
+    ```
 
 3. ### For Dokploy
     Open terminal in dokploy
