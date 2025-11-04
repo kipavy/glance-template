@@ -10,7 +10,7 @@
 
 - type: monitor
   cache: 1m
-  title: Web Services
+  title: Web Services TEST
   sites:
     - title: Adguard Home
       url: https://adguard.legoatdesserveurs.fr/
