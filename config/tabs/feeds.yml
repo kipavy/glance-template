@@ -4,7 +4,7 @@
       widgets:
         - type: calendar
           first-day-of-week: monday
-          $include: ../widgets/steam-top-sellers.yml
+        - $include: ../widgets/steam-top-sellers.yml
     - size: full
       widgets:
         - type: search
