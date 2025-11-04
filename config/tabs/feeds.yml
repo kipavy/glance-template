@@ -5,6 +5,7 @@
         - type: calendar
           first-day-of-week: monday
         - $include: ../widgets/steam-top-sellers.yml
+        - $include: ../widgets/epic-free-widget.yml
     - size: full
       widgets:
         - type: search
