@@ -11,7 +11,7 @@
         - type: group
           widgets:
             - type: reddit
-              subreddit: homelab
+              subreddit: selfhosted
               show-thumbnails: true
             - type: reddit
               subreddit: Stremio_France
