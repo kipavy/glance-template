@@ -14,7 +14,7 @@
               subreddit: homelab
               show-thumbnails: true
             - type: reddit
-              subreddit: stremiofr
+              subreddit: Stremio_France
               show-thumbnails: true
     - size: small
       widgets:
