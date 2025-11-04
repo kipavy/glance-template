@@ -4,6 +4,7 @@
       widgets:
         - type: calendar
           first-day-of-week: monday
+          $include: ../widgets/news.yml
     - size: full
       widgets:
         - type: search
