@@ -16,6 +16,9 @@
             - type: reddit
               subreddit: Stremio_France
               show-thumbnails: true
+            - type: reddit
+              subreddit: GamingLeaksAndRumours
+              show-thumbnails: true        
     - size: small
       widgets:
         - type: weather
