@@ -13,3 +13,4 @@
       widgets:
         $include: ../widgets/bookmarks.yml
         $include: ../widgets/tailscale.yml
+        $include: ../widgets/immich-stats.yml

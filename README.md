@@ -5,6 +5,8 @@
     PROXMOX_TOKEN="user@pam!name=key"
     TAILSCALE_API_KEY=API_KEY
     SCRUTINY_URL=192.168.1.149:8087
+    IMMICH_URL=192.168.1.150:3000
+    IMMICH_API_KEY=API_KEY
     ```
 
 3. ### For Dokploy
