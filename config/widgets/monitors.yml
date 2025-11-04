@@ -4,7 +4,7 @@
   sites:
     - title: Proxmox
       url: https://proxmox.legoatdesserveurs.fr/
-      check-url: https://${PROXMOX_URI}
+      check-url: https://${PROXMOX_URL}
       icon: di:proxmox
       allow-insecure: true
 

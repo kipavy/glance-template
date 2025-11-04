@@ -3,7 +3,7 @@
   title-url: https://login.tailscale.com/admin/machines
   url: https://api.tailscale.com/api/v2/tailnet/-/devices
   headers:
-    Authorization: Bearer ${TAILSCALE}
+    Authorization: Bearer ${TAILSCALE_API_KEY}
   cache: 10m
   template: |
     <style>

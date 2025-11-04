@@ -1,11 +1,11 @@
 - type: custom-api
   title: Proxmox
   cache: 1m
-  url: https://${PROXMOX_URI}/api2/json/cluster/resources
+  url: https://${PROXMOX_URL}/api2/json/cluster/resources
   allow-insecure: true
   headers:
     Accept: application/json
-    Authorization: PVEAPIToken=${PROXMOX}
+    Authorization: PVEAPIToken=${PROXMOX_TOKEN}
   template: |
     <style>
       .resource-bar {
