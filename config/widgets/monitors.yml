@@ -31,7 +31,7 @@
     - title: Scrutiny
       url: https://scrutiny.legoatdesserveurs.fr/
       check-url: http://192.168.1.149:8087/
-      icon: https://github.com/AnalogJ/scrutiny/raw/master/webapp/frontend/src/assets/images/logo/scrutiny-logo-dark.png
+      icon: di:scrutiny
 
 - type: docker-containers
   hide-by-default: true
