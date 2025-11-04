@@ -1,7 +1,7 @@
 - type: custom-api
   title: Proxmox
   cache: 1m
-  url: ${PROXMOX_URI}/api2/json/cluster/resources
+  url: https://${PROXMOX_URI}/api2/json/cluster/resources
   allow-insecure: true
   headers:
     Accept: application/json
