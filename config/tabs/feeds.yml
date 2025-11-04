@@ -24,4 +24,4 @@
         - type: weather
           units: metric
           hour-format: 24h
-          location: Lille, France
+          location: Miramas, France
