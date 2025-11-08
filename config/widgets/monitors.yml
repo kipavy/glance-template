@@ -21,7 +21,7 @@
       icon: sh:adguard-home
     - title: Nginx Proxy Manager
       url: https://npm.legoatdesserveurs.fr/
-      check-url: http://192.168.1.110
+      check-url: http://192.168.1.110:81
       icon: di:nginx-proxy-manager
     - title: Dokploy
       url: https://dokploy.legoatdesserveurs.fr/
