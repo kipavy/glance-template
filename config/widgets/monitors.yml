@@ -10,6 +10,7 @@
     - title: NFS
       url: http://192.168.1.147:9090
       icon: https://www.elevenforum.com/data/attachments/42/42324-06f4252c57398584e53c9dc52040e641.jpg
+      allow-insecure: true
 
 - type: monitor
   cache: 1m
@@ -23,6 +24,7 @@
       url: https://npm.legoatdesserveurs.fr/
       check-url: https://192.168.1.110:81
       icon: di:nginx-proxy-manager
+      allow-insecure: true
     - title: Dokploy
       url: https://dokploy.legoatdesserveurs.fr/
       check-url: http://192.168.1.149:3000/
