@@ -8,7 +8,7 @@
       icon: di:proxmox
       allow-insecure: true
     - title: NFS
-      url: http://192.168.1.147:9090
+      url: https://192.168.1.147:9090
       icon: https://www.elevenforum.com/data/attachments/42/42324-06f4252c57398584e53c9dc52040e641.jpg
       allow-insecure: true
 
