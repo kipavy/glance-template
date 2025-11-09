@@ -3,7 +3,7 @@
   title: Hardware
   sites:
     - title: Proxmox
-      url: https://proxmox.legoatdesserveurs.fr/
+      url: https://proxmox.kipavy.fr/
       check-url: https://${PROXMOX_URL}
       icon: di:proxmox
       allow-insecure: true
@@ -17,24 +17,24 @@
   title: Web Services
   sites:
     - title: Adguard Home
-      url: https://adguard.legoatdesserveurs.fr/
+      url: https://adguard.kipavy.fr/
       check-url: http://192.168.1.95/
       icon: sh:adguard-home
     - title: Nginx Proxy Manager
-      url: https://npm.legoatdesserveurs.fr/
+      url: https://npm.kipavy.fr/
       check-url: https://192.168.1.110:81
       icon: di:nginx-proxy-manager
       allow-insecure: true
     - title: Dokploy
-      url: https://dokploy.legoatdesserveurs.fr/
+      url: https://dokploy.kipavy.fr/
       check-url: http://192.168.1.149:3000/
       icon: sh:dokploy
     - title: Glance
-      url: https://legoatdesserveurs.fr/
+      url: https://kipavy.fr/
       check-url: http://192.168.1.149:9998/
       icon: sh:glance
     - title: Scrutiny
-      url: https://scrutiny.legoatdesserveurs.fr/
+      url: https://scrutiny.kipavy.fr/
       check-url: http://192.168.1.149:8087/
       icon: di:scrutiny
 
