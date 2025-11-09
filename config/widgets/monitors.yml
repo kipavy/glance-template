@@ -37,6 +37,10 @@
       url: https://scrutiny.kipavy.fr/
       check-url: http://192.168.1.149:8087/
       icon: di:scrutiny
+    - title: Immich
+      url: https://immich.kipavy.fr/
+      check-url: http://192.168.1.149:2283/
+      icon: di:immich
 
 - type: docker-containers
   hide-by-default: true
