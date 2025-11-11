@@ -7,8 +7,8 @@
           url: https://login.tailscale.com/admin/machines
         - title: SFR Box NAT
           url: http://192.168.1.1/network/nat
-        - title: Hostinger
-          url: https://www.hostinger.com/
+        - title: Infomaniak
+          url: https://manager.infomaniak.com/v3/1151158/ng/domain/2018709/dashboard
         - title: Wiki Perso
           url: http://kcorp.gitbook.io/it-wiki/
         - title: FMHY
