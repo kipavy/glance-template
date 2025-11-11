@@ -49,7 +49,7 @@
       name: Enshrouded Dedicated Server
       icon: https://enshrouded.wiki.gg/images/Site-logo.png
       hide: false
-    any-sync-bundle-aio:
+    any-sync-bundle:
       name: Anytype
       icon: si:anytype
       hide: false
