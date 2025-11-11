@@ -51,5 +51,5 @@
       hide: false
     any-sync-bundle:
       name: Anytype
-      icon: si:anytype
+      icon: https://ecosystem.ipfs.tech/images/projects/icon-anytype.png
       hide: false
