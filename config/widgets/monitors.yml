@@ -2,9 +2,13 @@
   cache: 1m
   title: Hardware
   sites:
-    - title: Proxmox
-      url: https://proxmox.kipavy.fr/
+    - title: PVE
+      url: https://pve.kipavy.fr/
       check-url: https://${PROXMOX_URL}
+      icon: di:proxmox
+      allow-insecure: true
+    - title: PBS
+      url: https://pbs.kipavy.fr/
       icon: di:proxmox
       allow-insecure: true
     - title: NFS
