@@ -5,7 +5,7 @@
   allow-insecure: true
   headers:
     Accept: application/json
-    Authorization: ${PROXMOX_TOKEN}
+    Authorization: PVEAPIToken=${PROXMOX_TOKEN}
   options:
     # Enable or disable charts for RAM, CPU, and Disk usage
     cpu_graph: true 
