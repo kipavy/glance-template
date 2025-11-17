@@ -4,7 +4,7 @@
       widgets:
         $include: ../widgets/proxmox.yml
         $include: ../widgets/scrutiny.yml
-        $include: ../widgets/proxmox-detailed-resources
+        $include: ../widgets/proxmox-detailed-resources.yml
 
     - size: full
       widgets:
