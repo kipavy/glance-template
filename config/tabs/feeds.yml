@@ -11,6 +11,9 @@
         - type: group
           widgets:
             - type: reddit
+              subreddit: steammachine
+              show-thumbnails: true 
+            - type: reddit
               subreddit: selfhosted
               show-thumbnails: true
             - type: reddit
