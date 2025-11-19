@@ -9,7 +9,11 @@
           url: http://192.168.1.1/network/nat
         - title: Infomaniak
           url: https://manager.infomaniak.com/v3/1151158/ng/domain/2018709/dashboard
-        - title: Wiki Perso
+        - title: My Wiki
           url: http://kcorp.gitbook.io/it-wiki/
+        - title: My Github
+          url: https://github.com/kipavy
+        - title: My Gists
+          url: https://gist.github.com/kipavy
         - title: FMHY
           url: https://fmhy.net/
