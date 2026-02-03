@@ -45,6 +45,10 @@
       url: https://immich.kipavy.fr/
       check-url: http://192.168.1.149:2283/
       icon: di:immich
+    - title: qBittorrent-nox
+      url: https://qbt.kipavy.fr/
+      check-url: http://192.168.1.149:8091/
+      icon: di:qbittorrent
 
 - type: docker-containers
   hide-by-default: true
