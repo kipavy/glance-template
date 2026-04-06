@@ -45,14 +45,18 @@
       url: https://immich.kipavy.fr/
       check-url: http://192.168.1.149:2283/
       icon: di:immich
-    - title: qBittorrent-nox
-      url: https://qbt.kipavy.fr/
-      check-url: http://192.168.1.149:8091/
-      icon: di:qbittorrent
     - title: Cloudreve
       url: https://cloudreve.kipavy.fr/
       check-url: http://192.168.1.92:5212/
       icon: di:cloudreve
+    - title: qBittorrent-nox
+      url: http://oracle:8091/
+      check-url: http://oracle:8091/
+    - title: Dockhand
+      url: http://oracle:3000/
+      check-url: http://oracle:3000/
+      icon: di:dockhand
+    
 
 - type: docker-containers
   hide-by-default: true
