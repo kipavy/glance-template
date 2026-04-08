@@ -55,7 +55,7 @@
     - title: Vaultwarden
       url: https://vw.kipavy.fr/
       check-url: https://vw.kipavy.fr/
-      icon: di:vaultwarden
+      icon: di:vaultwarden-light
     - title: Dockhand
       url: http://oracle:3000/
       check-url: http://oracle:3000/
