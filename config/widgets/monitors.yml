@@ -55,17 +55,22 @@
   cache: 1m
   title: Oracle · Cloud
   sites:
-    - title: qBittorrent-nox
-      url: http://oracle:8091/
-      check-url: http://oracle:8091/
     - title: Vaultwarden
       url: https://vw.kipavy.fr/
       check-url: https://vw.kipavy.fr/
       icon: di:vaultwarden-light
-    - title: Dockhand
-      url: http://oracle:3000/
-      check-url: http://oracle:3000/
-      icon: sh:dockhand.png
+
+- type: bookmarks
+  title: Oracle · Accès
+  groups:
+    - links:
+        - title: Dockhand
+          url: http://100.106.7.73:3000/
+          description: Tailscale uniquement
+          icon: sh:dockhand.png
+        - title: qBittorrent-nox
+          url: http://100.106.7.73:8091/
+          description: arrêté volontairement
 
 - type: docker-containers
   hide-by-default: true
