@@ -32,7 +32,7 @@
     - title: Dockhand NAS
       url: http://docker.lan:3001/
       check-url: http://docker.lan:3001/
-      icon: di:dockhand
+      icon: sh:dockhand.png
     - title: Glance
       url: https://kipavy.fr/
       check-url: http://docker.lan:9998/
@@ -55,7 +55,7 @@
     - title: Dockhand
       url: http://oracle:3000/
       check-url: http://oracle:3000/
-      icon: di:dockhand
+      icon: sh:dockhand.png
     
 
 - type: docker-containers
