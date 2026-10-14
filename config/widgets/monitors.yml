@@ -29,7 +29,7 @@
       check-url: https://npmplus.lan:81
       icon: di:nginx-proxy-manager
       allow-insecure: true
-    - title: Dockhand NAS
+    - title: Dockhand
       url: http://docker.lan:3001/
       check-url: http://docker.lan:3001/
       icon: sh:dockhand.png
@@ -45,6 +45,11 @@
       url: https://immich.kipavy.fr/
       check-url: http://docker.lan:2283/
       icon: di:immich
+
+- type: monitor
+  cache: 1m
+  title: Oracle
+  sites:
     - title: qBittorrent-nox
       url: http://oracle:8091/
       check-url: http://oracle:8091/
@@ -56,7 +61,6 @@
       url: http://oracle:3000/
       check-url: http://oracle:3000/
       icon: sh:dockhand.png
-    
 
 - type: docker-containers
   hide-by-default: true
