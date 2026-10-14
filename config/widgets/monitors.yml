@@ -12,7 +12,7 @@
       icon: di:proxmox
       allow-insecure: true
     - title: NFS
-      url: https://192.168.1.78:9090
+      url: https://cockpit.lan:9090
       icon: https://www.elevenforum.com/data/attachments/42/42324-06f4252c57398584e53c9dc52040e641.jpg
       allow-insecure: true
 
@@ -22,28 +22,28 @@
   sites:
     - title: Adguard Home
       url: https://adguard.kipavy.fr/
-      check-url: http://192.168.1.95/
+      check-url: http://adguard.lan/
       icon: sh:adguard-home
     - title: Nginx Proxy Manager
       url: https://npm.kipavy.fr/
-      check-url: https://192.168.1.110:81
+      check-url: https://npmplus.lan:81
       icon: di:nginx-proxy-manager
       allow-insecure: true
     - title: Dokploy
       url: https://dokploy.kipavy.fr/
-      check-url: http://192.168.1.149:3000/
+      check-url: http://docker.lan:3000/
       icon: sh:dokploy
     - title: Glance
       url: https://kipavy.fr/
-      check-url: http://192.168.1.149:9998/
+      check-url: http://docker.lan:9998/
       icon: sh:glance
     - title: Scrutiny
       url: https://scrutiny.kipavy.fr/
-      check-url: http://192.168.1.149:8087/
+      check-url: http://docker.lan:8087/
       icon: di:scrutiny
     - title: Immich
       url: https://immich.kipavy.fr/
-      check-url: http://192.168.1.149:2283/
+      check-url: http://docker.lan:2283/
       icon: di:immich
     - title: qBittorrent-nox
       url: http://oracle:8091/

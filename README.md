@@ -1,13 +1,15 @@
 1. Install Glance template on Dokploy or using https://community-scripts.github.io/ProxmoxVE/scripts?id=glance
 2. provide following env variables in dokploy or in `/opt/glance/.env` for Proxmox VE Script deployment:
     ```
-    PROXMOX_URL=192.168.1.75:8006
+    PROXMOX_URL=pve.lan:8006
     PROXMOX_TOKEN="user@pam!name=key"
     TAILSCALE_API_KEY=API_KEY
-    SCRUTINY_URL=192.168.1.149:8087
-    IMMICH_URL=192.168.1.150:3000
+    SCRUTINY_URL=docker.lan:8087
+    IMMICH_URL=docker.lan:2283
     IMMICH_API_KEY=API_KEY
     ```
+    Hosts are `<container>.lan` names that AdGuard Home serves from the Proxmox config
+    ([pve-dns-sync](https://github.com/kipavy/Wiki/blob/main/scripts/pve-dns-sync.sh)), so nothing here changes when the server moves to another network.
 
 3. ### For Dokploy
     Open terminal in dokploy

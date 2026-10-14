@@ -6,7 +6,7 @@
         - title: Tailscale Admin Panel
           url: https://login.tailscale.com/admin/machines
         - title: SFR Box NAT
-          url: http://192.168.1.1/network/nat
+          url: http://box.lan/
         - title: Infomaniak
           url: https://manager.infomaniak.com/v3/1151158/ng/domain/2018709/dashboard
         - title: Torbox Manager
