@@ -1,6 +1,6 @@
 - type: monitor
   cache: 1m
-  title: Hardware
+  title: NAS · Infra
   sites:
     - title: PVE
       url: https://pve.kipavy.fr/
@@ -18,7 +18,7 @@
 
 - type: monitor
   cache: 1m
-  title: Web Services
+  title: NAS · Réseau
   sites:
     - title: Adguard Home
       url: https://adguard.kipavy.fr/
@@ -29,6 +29,11 @@
       check-url: https://npmplus.lan:81
       icon: di:nginx-proxy-manager
       allow-insecure: true
+
+- type: monitor
+  cache: 1m
+  title: NAS · Services
+  sites:
     - title: Dockhand
       url: http://docker.lan:3001/
       check-url: http://docker.lan:3001/
@@ -48,7 +53,7 @@
 
 - type: monitor
   cache: 1m
-  title: Oracle
+  title: Oracle · Cloud
   sites:
     - title: qBittorrent-nox
       url: http://oracle:8091/
