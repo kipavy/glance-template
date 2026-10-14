@@ -29,10 +29,10 @@
       check-url: https://npmplus.lan:81
       icon: di:nginx-proxy-manager
       allow-insecure: true
-    - title: Dokploy
-      url: https://dokploy.kipavy.fr/
-      check-url: http://docker.lan:3000/
-      icon: sh:dokploy
+    - title: Dockhand NAS
+      url: http://docker.lan:3001/
+      check-url: http://docker.lan:3001/
+      icon: di:dockhand
     - title: Glance
       url: https://kipavy.fr/
       check-url: http://docker.lan:9998/
